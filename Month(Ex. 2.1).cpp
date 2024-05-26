@@ -15,9 +15,10 @@ enum  month
 Ноябрь,
 Декабрь
 };
-void getname(month day);
+
 void inNumber(int a);
 void getname(month day);
+void input();
 
 void inNumber(int a) 
 {
@@ -27,7 +28,6 @@ void inNumber(int a)
  
   
 }
-
 void getname(month day) 
 {
   switch (day)
