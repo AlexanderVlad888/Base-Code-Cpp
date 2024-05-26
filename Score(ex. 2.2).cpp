@@ -16,7 +16,7 @@ char* date_creation_person()
 struct person 
 {
     const int id = new_ID();  // уникальный идентификатор экземпляра структуры
-    long score;
+    long score;               // номер счета
     std::string first_name;
     std::string last_name;
     float balance;
